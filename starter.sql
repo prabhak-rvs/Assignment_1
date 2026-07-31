@@ -1,4 +1,4 @@
---CREATE DATABASE CollegeDB;
+CREATE DATABASE CollegeDB;
 
 USE CollegeDB;
 
