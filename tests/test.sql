@@ -1,4 +1,6 @@
-USE CollegeDB;
+SELECT SCHEMA_NAME
+FROM information_schema.SCHEMATA
+WHERE SCHEMA_NAME='CollegeDB';
 
 -- Check if Department table exists
 SELECT
