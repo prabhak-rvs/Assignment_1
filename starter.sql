@@ -1,16 +1,9 @@
--- ==========================================
--- College Database Assignment
--- Student Name:
--- Register No:
--- ==========================================
+--CREATE DATABASE CollegeDB;
 
--- TODO:
--- 1. Create a database named CollegeDB
--- 2. Use the database
--- 3. Create a Department table with the following fields:
---
--- DepartmentID   Number(5)  Primary Key
--- DepartmentName Varchar(20)
--- HOD            Varchar(20)
---
--- Write your SQL below.
+USE CollegeDB;
+
+CREATE TABLE Department (
+    DepartmentID INT(5) PRIMARY KEY,
+    DepartmentName VARCHAR(20),
+    HOD VARCHAR(20)
+);
